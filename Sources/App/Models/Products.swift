@@ -1,8 +1,6 @@
-//
-//  File.swift
-//  
-//
-//  Created by 이학주 on 2021/07/19.
-//
+import FluentPostgresDriver
+import Vapor
 
-import Foundation
+final class Products: Model {
+    static let schema = "Products"
+}
