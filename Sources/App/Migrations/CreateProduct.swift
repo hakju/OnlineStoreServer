@@ -1,6 +1,7 @@
 import Fluent
+import SQLKit
 
-struct CreateTodo: Migration {
+struct CreateProduct: Migration {
     func prepare(on database: Database) -> EventLoopFuture<Void> {
         return database.schema("todos")
             .id()
