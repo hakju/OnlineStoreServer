@@ -1,0 +1,28 @@
+[
+        {
+            "page": 1,
+            "products": [
+                {
+                    "id": 1,
+                    "title": "MacBook Air",
+                    "price": 1290000,
+                    "stock": 10,
+                    "thumbnails": "https://www.apple.com/v/macbook-air/j/images/overview/macbook_air__cvqhw0f6aq82_large_2x.jpg",
+                },
+                {
+                    "id": 2,
+                    "title": "MacBook Pro 13형",
+                    "price": 1690000,
+                    "stock": 10,
+                    "thumbnails": "https://www.apple.com/v/macbook-air/j/images/overview/macbook_pro_13__dyvyq7bfsrau_large_2x.jpg",
+                },
+                {
+                    "id": 3,
+                    "title": "MacBook Pro 16형",
+                    "price": 3190000,
+                    "stock": 10,
+                    "thumbnails": "https://www.apple.com/v/macbook-air/j/images/overview/macbook_pro_16__gftycg348kii_large_2x.jpg",
+                }
+            ]
+        }
+]
