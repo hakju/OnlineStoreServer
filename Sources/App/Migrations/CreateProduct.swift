@@ -4,7 +4,7 @@ import SQLKit
 struct CreateProduct: Migration {
     func prepare(on database: Database) -> EventLoopFuture<Void> {
         return database.schema(Products.schema)
-            .field("id", .uuid)
+            .id()
             .field("title", .string, .required)
             .field("price", .uint64, .required)
             .field("stock", .uint64, .required)
@@ -15,6 +15,6 @@ struct CreateProduct: Migration {
     }
 
     func revert(on database: Database) -> EventLoopFuture<Void> {
-        return database.schema("todos").delete()
+        return database.schema(Products.schema).delete()
     }
 }
