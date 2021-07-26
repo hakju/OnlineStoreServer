@@ -3,7 +3,7 @@ import Fluent
 
 struct ProductController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
-        let products = routes.grouped("products")
+//        let products = routes.grouped("products")
 //        products.get(use: fetch)
 //        products.post(use: create)
 
